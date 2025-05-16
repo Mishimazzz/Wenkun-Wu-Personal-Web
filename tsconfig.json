@@ -5,6 +5,8 @@
     "target": "ES6",
     "module": "commonjs",
     "strict": true,
-    "esModuleInterop": true                             /* Skip type checking all .d.ts files. */
-  }
+    "esModuleInterop": true,
+    "jsx": "react"
+  },
+  "include": ["src"]
 }
