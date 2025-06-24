@@ -1,10 +1,14 @@
-import { StrictMode } from 'react'
-import { createRoot } from 'react-dom/client'
+// 连接所有page的页面，只需要挂在这里就可以（import）
+import React from 'react'
+import ReactDOM from 'react-dom/client'
 import './index.css'
-import App from './App.tsx'
+import HomePage from './HomePage'
+import Header from './Header'
 
-createRoot(document.getElementById('root')!).render(
-  <StrictMode>
-    <App />
-  </StrictMode>,
+// free to add any tsx inside, will show up directly
+ReactDOM.createRoot(document.getElementById('root')!).render(
+  <React.StrictMode>
+    <Header />
+    <HomePage />
+  </React.StrictMode>
 )
