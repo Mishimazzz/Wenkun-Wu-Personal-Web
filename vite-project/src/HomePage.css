@@ -79,6 +79,16 @@
   background-color: transparent;
 }
 
+.logo-border {
+  border: 2px solid #e0e0e0;
+  border-radius: 8px;
+  padding: 15px;
+  background: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
 .company-logo {
   width: 48px;
   height: 48px;

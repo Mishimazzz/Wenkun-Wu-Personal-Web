@@ -14,7 +14,9 @@ export default function WorkCard({ logo, companyName, position, date, introducti
     <div className="work-card">
       <div className='logo-part'>
         <div className="logo-wrapper">
-          <img className="company-logo" src={logo} alt={`${companyName} Logo`} />
+          <div className="logo-border">
+            <img className="company-logo" src={logo} alt={`${companyName} Logo`} />
+          </div>
           <div className='line'></div>
         </div>
       </div>
