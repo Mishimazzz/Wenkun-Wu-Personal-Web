@@ -28,15 +28,17 @@ function HomePage() {
           </div>
         </div>
       </div>
-      <div className='workExperience'>
-        <h1>Work Experience</h1>
-        <WorkCard
-          logo="https://media.licdn.com/dms/image/v2/D4E0BAQG1TfjUTE2lcw/company-logo_100_100/company-logo_100_100/0/1708592321323/rhenus_logistics_logo?e=1756339200&amp;v=beta&amp;t=pl34Wt672SG4JwGCgLY3Mk0w4SjEFfHCSNybeSGDi0E"
-          companyName="Inside Sales Support"
-          position="Rhenus Logistics | Internship"
-          date="Jan 2025 – May 2025 | 5 mos"
-          introduction="My primary tasks at Aviyel included crafting technical guides and hosting coding sessions to bridge the gap with open-source content for some of the fastest-growing projects."
-        />
+      <div className='BottomFrame'>
+        <div className='workExperience'>
+          <h1>Work Experience</h1>
+          <WorkCard
+            logo="https://media.licdn.com/dms/image/v2/D4E0BAQG1TfjUTE2lcw/company-logo_100_100/company-logo_100_100/0/1708592321323/rhenus_logistics_logo?e=1756339200&amp;v=beta&amp;t=pl34Wt672SG4JwGCgLY3Mk0w4SjEFfHCSNybeSGDi0E"
+            companyName="Inside Sales Support"
+            position="Rhenus Logistics | Internship"
+            date="Jan 2025 – May 2025 | 5 mos"
+            introduction="My primary tasks at Aviyel included crafting technical guides and hosting coding sessions to bridge the gap with open-source content for some of the fastest-growing projects."
+          />
+        </div>
       </div>
     </div>
   )
