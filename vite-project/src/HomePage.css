@@ -43,26 +43,66 @@
   justify-content: center;
 }
 
-.BottomFrame
-{
+.BottomFrame {
   width: 70%;
-    /* margin: 0 auto; */
-    padding: 0 0 80px 0px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+  margin: 0 auto;
+  padding: 0 0 80px 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
-.workExperience
-{
-  width: 70%;
-  /* box-sizing: border-box; */
-  padding: 80px;
+.workExperience {
+  width: 100%;
+  box-sizing: border-box;
 }
 
 .work-card {
-  display:flex;
-  padding-left: 40px;
+  display: flex;
+  gap: 20px;
+  padding: 24px 0;
+  position: relative;
+}
+
+/* logo and line */
+.logo-part{
+  display: flex;
+  flex-direction: column;
+}
+
+.logo-wrapper {
+  width: 70px;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: transparent;
+}
+
+.company-logo {
+  width: 48px;
+  height: 48px;
+  background: #f0f0f0;
+  object-fit: cover;
+  display: block;
+  margin: 0 auto;
+}
+
+.line {
+  position: relative;
+  width: 0;
+  height: 150px;
+}
+
+.line::after {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 1px;
+  height: 100%;
+  background: #ccc;
 }
 
 .logo img{

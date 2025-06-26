@@ -12,9 +12,13 @@ interface WorkCardProps
 export default function WorkCard({ logo, companyName, position, date, introduction }: WorkCardProps) {
   return (
     <div className="work-card">
-      <div className='logo'>
-        <img src={logo} alt={`${companyName} Logo`} className="company-logo" />
+      <div className='logo-part'>
+        <div className="logo-wrapper">
+          <img className="company-logo" src={logo} alt={`${companyName} Logo`} />
+          <div className='line'></div>
+        </div>
       </div>
+      
       <div className="work-content">
         <h3>{companyName}</h3>
         <p className="position">{position}</p>

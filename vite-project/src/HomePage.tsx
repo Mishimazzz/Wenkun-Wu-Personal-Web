@@ -38,6 +38,13 @@ function HomePage() {
             date="Jan 2025 – May 2025 | 5 mos"
             introduction="My primary tasks at Aviyel included crafting technical guides and hosting coding sessions to bridge the gap with open-source content for some of the fastest-growing projects."
           />
+          <WorkCard
+            logo="https://media.licdn.com/dms/image/v2/C4D0BAQERNrQoa9pguw/company-logo_100_100/company-logo_100_100/0/1631352787502?e=1756339200&amp;v=beta&amp;t=tkVPAzR6mYbvJxqNAlJvBxZ0b9XCG1q98HBxusTTgvM"
+            companyName="Inside Sales Support"
+            position="Rhenus Logistics | Internship"
+            date="Jan 2025 – May 2025 | 5 mos"
+            introduction="My primary tasks at Aviyel included crafting technical guides and hosting coding sessions to bridge the gap with open-source content for some of the fastest-growing projects."
+          />
         </div>
       </div>
     </div>
