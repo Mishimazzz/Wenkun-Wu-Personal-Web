@@ -1,0 +1,16 @@
+.leftSection{
+  width: 70%;
+  box-sizing: border-box;
+  padding: 80px;
+}
+
+.rightSection{
+  width: 30%;
+  box-sizing: border-box;
+  padding: 80px;
+}
+
+@media screen {
+  
+}
+

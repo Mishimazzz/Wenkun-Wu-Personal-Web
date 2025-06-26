@@ -1,0 +1,53 @@
+.Header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 30px 80px 30px 80px;
+  background: #f7f7f7;
+  border-bottom: 1px solid #e0e0e0;
+}
+
+.Header>div {
+  display: flex;
+  align-items: center;
+}
+
+.Header img {
+  width: 48px;
+  height: 48px;
+  object-fit: contain;
+  margin-right: 32px;
+}
+
+.Nav nav {
+  display: flex;
+  gap: 32px;
+}
+
+.Nav a {
+  color: var(--black);
+  text-decoration: none;
+  font-family: var(--text-font-family);
+  font-size: var(--base-font-size);
+  font-weight: 500;
+  transition: color 0.2s;
+}
+
+.Nav a:hover {
+  color: #0078d4;
+}
+
+.ThemeToggle {
+  margin-left: 32px;
+}
+
+.ThemeToggle button {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  transition: background 0.2s;
+}
+
+.ThemeToggle button:hover {
+  background: #ececec;
+}

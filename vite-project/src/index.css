@@ -1,1 +1,38 @@
 /* 这个是全局样式文件，通常不改名 */
+/* make whole website without space in top, left, right and bottom */
+body,#root {
+  margin: 0;
+  padding: 0;
+}
+
+:root {
+  --base-font-size: 18px;
+  --header-font-family: OCR A Std, monospace;
+  --text-font-family:Gill Sans, sans-serif;
+  --shadow: #b2b2b2;
+  --black: #333;
+}
+
+h1 {
+  font-size: 3.0em;
+  font-family: var(--header-font-family);
+  margin: 0.5em 0;
+  letter-spacing: -0.04em; /*字与字空隙减少 */
+}
+
+h2 {
+  font-size: 1.7rem;
+  font-family: var(--header-font-family);
+  margin: 0.75em 0;
+}
+
+h3 {
+  font-size: 1.3rem;
+  font-family: var(--header-font-family);
+  margin: 0.83em 0;
+}
+
+p {
+  font-size:1.0 rem;
+  font-family: var(--text-font-family);
+}
