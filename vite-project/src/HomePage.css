@@ -52,11 +52,6 @@
   align-items: center;
 }
 
-.workExperience {
-  width: 100%;
-  box-sizing: border-box;
-}
-
 .work-card {
   display: flex;
   gap: 20px;
@@ -120,52 +115,30 @@
   width: 50px;
 }
 
-/* phone */
-@media screen and (max-width: 480px) {
-  
+.workExperience {
+  width: 100%;
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: row;
+  gap: 40px;
 }
 
-/* ipad */
-@media screen and (max-width: 768px) {
-  
+.left-section,
+.right-section {
+  display: flex;
+  flex-direction: column;
+  width: 50%;
+  padding: 30px 80px 30px 80px;
+  box-sizing: border-box;
 }
 
-/* big ipad */
-@media screen and (max-width: 1024px) {
-  .TopFrame {
-      width: 100%;
-  }
-  .HomePage{
-    flex-direction: column;
-  }
-  .leftSection {
-    width: 70%;
-    box-sizing: border-box;
-    padding: 40px 0px 0px 0px; 
-  }
+.work-content {
+  max-width: 420px;
+  /* 或 380px、400px，按需调整 */
 }
 
-/* monitor(middle) */
-@media screen and (max-width: 1280px) {
-  .TopFrame {
-      width: 100%;
-  }
-  .leftSection {
-    width: 70%;
-    box-sizing: border-box;
-    padding: 40px 0px 0px 0px;
-  }
-  .rightSection {
-    width: 70%;
-    padding: 50px 0 0 0;
-    margin: 0 auto 0 0;
-  }
+.work-header {
+  width: 70%;
+  margin: 0 auto;
+  padding-left: 150px;
 }
-
-/* monitor(big) */
-@media screen and (min-width: 1440px) {
-  .TopFrame {
-      width: 60%;
-  }
-}
-

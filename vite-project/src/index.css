@@ -36,3 +36,52 @@ p {
   font-size:1.0 rem;
   font-family: var(--text-font-family);
 }
+
+/* phone */
+@media screen and (max-width: 480px) {}
+
+/* ipad */
+@media screen and (max-width: 768px) {}
+
+/* big ipad */
+@media screen and (max-width: 1024px) {
+  .TopFrame {
+    width: 100%;
+  }
+
+  .HomePage {
+    flex-direction: column;
+  }
+
+  .leftSection {
+    width: 70%;
+    box-sizing: border-box;
+    padding: 40px 0px 0px 0px;
+  }
+}
+
+/* monitor(middle) */
+@media screen and (max-width: 1280px) {
+  .TopFrame {
+    width: 100%;
+  }
+
+  .leftSection {
+    width: 70%;
+    box-sizing: border-box;
+    padding: 40px 0px 0px 0px;
+  }
+
+  .rightSection {
+    width: 70%;
+    padding: 50px 0 0 0;
+    margin: 0 auto 0 0;
+  }
+}
+
+/* monitor(big) */
+@media screen and (min-width: 1440px) {
+  .TopFrame {
+    width: 60%;
+  }
+}
