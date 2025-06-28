@@ -1,10 +1,18 @@
 .Header {
   display: flex;
   align-items: center;
-  justify-content: space-between;
-  padding: 30px 80px 30px 80px;
+  justify-content: center;
+  width: 100%;
+  padding: 30px 70px;
   background: #f7f7f7;
   border-bottom: 1px solid #e0e0e0;
+}
+
+.content {
+  width: 70%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
 }
 
 .Header>div {
@@ -16,7 +24,6 @@
   width: 48px;
   height: 48px;
   object-fit: contain;
-  margin-right: 32px;
 }
 
 .Nav nav {
@@ -35,10 +42,6 @@
 
 .Nav a:hover {
   color: #0078d4;
-}
-
-.ThemeToggle {
-  margin-left: 32px;
 }
 
 .ThemeToggle button {
