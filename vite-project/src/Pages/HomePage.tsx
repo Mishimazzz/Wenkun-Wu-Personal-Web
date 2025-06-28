@@ -1,9 +1,9 @@
 // filepath: c:\Users\16039\Desktop\Wenkun Wu Personal website\vite-project\src\App.tsx
 import React from 'react'
-import Header from './Header'
+import Header from '../Components/Header'
 import "./HomePage.css"
-import IsometricBoxes from './IsometricBoxes';
-import WorkCard from './WorkCard';
+import IsometricBoxes from '../Components/IsometricBoxes';
+import WorkCard from '../Components/WorkCard';
 
 function HomePage() {
   return (
