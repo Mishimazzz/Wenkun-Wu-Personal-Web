@@ -24,7 +24,7 @@ body.dark .wholePage {
 }
 
 .leftSection{
-  width: 70%;
+  width: 65%;
   box-sizing: border-box;
   padding: 80px;
 }
@@ -44,9 +44,9 @@ body.dark .wholePage {
 }
 
 .rightSection{
-  width: 30%;
+  width: 35%;
   box-sizing: border-box;
-  padding: 80px;
+  padding: 80px 80px 80px 0px;
   display: block;
   align-items: center;
   justify-content: center;

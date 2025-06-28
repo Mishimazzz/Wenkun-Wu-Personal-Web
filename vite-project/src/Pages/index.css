@@ -17,7 +17,8 @@ h1 {
   font-size: 3.0em;
   font-family: var(--header-font-family);
   margin: 0.5em 0;
-  letter-spacing: -0.04em; /*字与字空隙减少 */
+  letter-spacing: -0.04em;
+  word-spacing: -14px;
 }
 
 h2 {
