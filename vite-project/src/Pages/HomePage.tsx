@@ -7,7 +7,7 @@ import WorkCard from '../Components/WorkCard';
 
 function HomePage() {
   return (
-    <div>
+    <div className='wholePage'>
       <Header />
       <div className='TopFrame'>
         <div className='HomePage'>
