@@ -1,6 +1,7 @@
 import React, { useState } from 'react';
 import "./Header.css"
 import ThemeSwitcher from '../Components/ThemeSwitcher';
+import logo from '../assets/logo.png';
 
 function Header() {
   const [dark, setDark] = useState(false);
@@ -12,7 +13,7 @@ function Header() {
       <div className='content'>
         {/*logo*/}
         <div>
-          <img></img>
+          <img src={logo} alt="logo" style={{ height: "120px",width: "120px"}} />
         </div>
         {/* middle of topbar */}
         <div className='Nav'>
