@@ -151,3 +151,34 @@ body.dark .wholePage {
   margin: 0 auto;
   padding-left: 150px;
 }
+
+footer {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-top: 1px solid #e0e0e0;
+  background: transparent;
+}
+
+.footer-content {
+  width: 100%;
+  max-width: 1300px;
+  padding: 0px 70px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  box-sizing: border-box;
+}
+
+.left-footer,
+.right-footer {
+  display: flex;
+  align-items: center;
+}
+
+.left-footer img {
+  width: 20px;
+  height: 20px;
+  margin: 0 4px;
+}

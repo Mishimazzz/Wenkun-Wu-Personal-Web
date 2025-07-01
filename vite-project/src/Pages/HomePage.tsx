@@ -31,7 +31,6 @@ function HomePage() {
       <h1 className='work-header'>Work Experience</h1>
       <div className='BottomFrame'>
         <div className='workExperience'>
-          
           <div className='left-section'>
             <WorkCard
               logo="https://media.licdn.com/dms/image/v2/D4E0BAQG1TfjUTE2lcw/company-logo_100_100/company-logo_100_100/0/1708592321323/rhenus_logistics_logo?e=1756339200&amp;v=beta&amp;t=pl34Wt672SG4JwGCgLY3Mk0w4SjEFfHCSNybeSGDi0E"
@@ -74,6 +73,22 @@ function HomePage() {
           </div>
         </div>
       </div>
+      <footer>
+        <div className="footer-content">
+        <div className='left-footer'>
+          <p>
+            Built with: 
+            <img src="./public/React-icon.svg.png" alt="" />React, 
+            <img src="./public/typescript_Image.png" alt="" />TypeScript
+          </p>
+        </div>
+        <div className='right-footer'>
+          <p>
+            Copyright © Yueyan Ying 2025 All rights Reserved
+          </p>
+        </div>
+        </div>
+      </footer>
     </div>
   )
 }
