@@ -1,16 +1,23 @@
 // filepath: c:\Users\16039\Desktop\Wenkun Wu Personal website\vite-project\src\App.tsx
-import React from 'react'
+
+import React, { useEffect } from 'react';
+import AOS from 'aos';
+import 'aos/dist/aos.css';
 import Header from '../Components/Header'
 import "./HomePage.css"
 import IsometricBoxes from '../Components/IsometricBoxes';
 import WorkCard from '../Components/WorkCard';
 
 function HomePage() {
+  //import aos animation
+  useEffect(() => {
+    AOS.init({ once: true });
+  }, []);
   return (
     <div className='wholePage'>
       <Header />
       <div className='TopFrame'>
-        <div className='HomePage'>
+        <div className='HomePage' data-aos="fade-up" data-aos-delay="200">
           <div className='leftSection'>
             <h1>Software engineer, technical writer & open-source maintainer</h1>
             <p>
@@ -28,9 +35,9 @@ function HomePage() {
           </div>
         </div>
       </div>
-      <h1 className='work-header'>Work Experience</h1>
+      <h1 className='work-header' data-aos="fade-up" data-aos-delay="300">Work Experience</h1>
       <div className='BottomFrame'>
-        <div className='workExperience'>
+        <div className='workExperience' data-aos="fade-up" data-aos-delay="300">
           <div className='left-section'>
             <WorkCard
               logo="https://media.licdn.com/dms/image/v2/D4E0BAQG1TfjUTE2lcw/company-logo_100_100/company-logo_100_100/0/1708592321323/rhenus_logistics_logo?e=1756339200&amp;v=beta&amp;t=pl34Wt672SG4JwGCgLY3Mk0w4SjEFfHCSNybeSGDi0E"
@@ -75,18 +82,18 @@ function HomePage() {
       </div>
       <footer>
         <div className="footer-content">
-        <div className='left-footer'>
-          <p>
-            Built with: 
-            <img src="./public/React-icon.svg.png" alt="" />React, 
-            <img src="./public/typescript_Image.png" alt="" />TypeScript
-          </p>
-        </div>
-        <div className='right-footer'>
-          <p>
-            Copyright © Yueyan Ying 2025 All rights Reserved
-          </p>
-        </div>
+          <div className='left-footer'>
+            <p>
+              Built with: 
+              <img src="./public/React-icon.svg.png" alt="" />React, 
+              <img src="./public/typescript_Image.png" alt="" />TypeScript
+            </p>
+          </div>
+          <div className='right-footer'>
+            <p>
+              Copyright © Yueyan Ying 2025 All rights Reserved
+            </p>
+          </div>
         </div>
       </footer>
     </div>
