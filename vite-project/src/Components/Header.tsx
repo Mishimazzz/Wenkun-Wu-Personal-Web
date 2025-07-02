@@ -2,6 +2,7 @@ import React, { useState } from 'react';
 import "./Header.css"
 import ThemeSwitcher from '../Components/ThemeSwitcher';
 import logo from '../assets/logo.png';
+import { Link } from 'react-router-dom';
 
 function Header() {
   const [dark, setDark] = useState(false);
@@ -18,7 +19,7 @@ function Header() {
         {/* middle of topbar */}
         <div className='Nav'>
           <nav>
-            <a href='#'>About</a>
+            <Link to="/about">About</Link>
             <a href='#'>Projects</a>
             <a href='#'>Photos</a>
             <a href='#'>Blog</a>

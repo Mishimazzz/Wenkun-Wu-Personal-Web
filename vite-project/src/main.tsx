@@ -1,12 +1,17 @@
-// 连接所有page的页面，只需要挂在这里就可以（import）
 import React from 'react'
 import ReactDOM from 'react-dom/client'
 import './Pages/index.css'
-import HomePage from './Pages/HomePage'
+import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
+import HomePage from './Pages/HomePage';
+import About from './Pages/About';
 
-// free to add any tsx inside, will show up directly
 ReactDOM.createRoot(document.getElementById('root')!).render(
   <React.StrictMode>
-    <HomePage />
+    <Router>
+      <Routes>
+        <Route path='/' element={<HomePage />} />
+        <Route path='/about' element={<About />} />
+      </Routes>
+    </Router>
   </React.StrictMode>
 )
