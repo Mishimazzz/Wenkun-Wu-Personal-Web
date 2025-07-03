@@ -24,9 +24,13 @@ function HomePage() {
               I'm Wenkun Wu, a supply chain enthusiast with hands-on experience in logistics, <br />pricing, and analytics. I turn raw data into insights and chaos into coordination
             </p>
             {/* personal links */}
-              <a className="social-link" href="https://www.linkedin.com/in/wenkun-wu-20939b293/" target="_blank" rel="noopener noreferrer">
+            <a className="social-link" href="https://www.linkedin.com/in/wenkun-wu-20939b293/" target="_blank" rel="noopener noreferrer">
               <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/linkedin/linkedin-original.svg" alt="LinkedIn" className="icon" />
                 <span style={{ fontFamily: "var(--text-font-family)" }}>LinkedIn</span>
+              </a>
+            <a className="social-link" href="https://steamcommunity.com/profiles/76561199805761061" target="_blank" rel="noopener noreferrer">
+              <img src="https://upload.wikimedia.org/wikipedia/commons/8/83/Steam_icon_logo.svg" alt="Steam" className="icon" />
+              <span style={{ fontFamily: "var(--text-font-family)" }}>Steam</span>
             </a>
           </div>
           <div className='rightSection'>

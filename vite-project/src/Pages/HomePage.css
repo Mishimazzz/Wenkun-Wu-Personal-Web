@@ -34,9 +34,17 @@ body.dark .wholePage {
   align-items: center;
   gap: 8px;
   text-decoration: none;
-  color: #0A66C2;
+  color: #222;
   font-weight: 500;
+  margin-right: 20px;
+  border-bottom: 2px solid #ccc;
+  padding-bottom: 0px;
 }
+
+.social-link:hover {
+  color: #0A66C2;
+}
+
 
 .icon {
   width: 20px;
@@ -143,7 +151,6 @@ body.dark .wholePage {
 
 .work-content {
   max-width: 420px;
-  /* 或 380px、400px，按需调整 */
 }
 
 .work-header {
