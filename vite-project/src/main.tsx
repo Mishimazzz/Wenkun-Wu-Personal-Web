@@ -9,7 +9,7 @@ ReactDOM.createRoot(document.getElementById('root')!).render(
   <React.StrictMode>
     <Router>
       <Routes>
-        <Route path='/' element={<HomePage />} />
+        <Route path='/Homepage' element={<HomePage />} />
         <Route path='/about' element={<About />} />
       </Routes>
     </Router>

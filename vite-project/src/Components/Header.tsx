@@ -14,15 +14,15 @@ function Header() {
       <div className='content'>
         {/*logo*/}
         <div>
-          <img src={logo} alt="logo" style={{ height: "120px",width: "120px"}} />
+          <Link to="/HomePage">
+            <img src={logo} alt="logo" style={{ height: "120px", width: "120px" }} />
+          </Link>
         </div>
         {/* middle of topbar */}
         <div className='Nav'>
           <nav>
             <Link to="/about">About</Link>
-            <a href='#'>Projects</a>
             <a href='#'>Photos</a>
-            <a href='#'>Blog</a>
           </nav>
         </div>
         {/* change background color */}
