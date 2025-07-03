@@ -19,10 +19,9 @@ function HomePage() {
       <div className='TopFrame'>
         <div className='HomePage' data-aos="fade-up" data-aos-delay="200">
           <div className='leftSection'>
-            <h1>Software engineer, technical writer & open-source maintainer</h1>
+            <h1>Supply chain analyst, <br />data wrangler & logistics optimizer</h1>
             <p>
-              I'm Victor Eke, an experienced frontend developer passionate about
-              learning and <br />building open-source software that is beneficial to developers and the world at large.
+              I'm Wenkun Wu, a supply chain enthusiast with hands-on experience in logistics, <br />pricing, and analytics. I turn raw data into insights and chaos into coordination
             </p>
             {/* personal links */}
               <a className="social-link" href="https://www.linkedin.com/in/wenkun-wu-20939b293/" target="_blank" rel="noopener noreferrer">
