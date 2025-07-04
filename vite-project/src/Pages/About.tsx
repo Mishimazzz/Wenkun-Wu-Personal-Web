@@ -12,12 +12,17 @@ function About()
       <div className='TopFrame'>
         <div className='leftSection' data-aos="fade-up" data-aos-delay="200">
           <h1>I'm Wenkun Wu. I live in Montreal, where I move containers and drive smarter supply chain decisions.</h1>
-          <p>
+          <p style={{ textIndent: '2em' }}>
             I'm a data-driven supply chain specialist who happens to own a violin, <br />
             a bass guitar, and a gym membership (the last one is more symbolic than visible, <br />
-            thanks to my loyal baby fat). Armed with advanced Excel skills and just enough <br />
-            Power BI to impress my manager, I tackle pricing sheets and shipment mysteries by day, <br />
-            and string instruments by night. On a totally unrelated note, I have an identical twin sister <br />
+            thanks to my loyal baby fat). <br />
+          </p>
+          <p style={{ textIndent: '2em' }}>
+            Armed with advanced Excel skills and just enough Power BI to impress my manager, <br />I tackle pricing sheets and shipment mysteries by day,
+            and string instruments by night. 
+          </p>
+          <p style={{ textIndent: '2em' }}>
+            On a totally unrelated note, I have an identical twin sister <br />
             who’s my complete opposite — she probably wouldn’t survive in logistics.
           </p>
         </div>
