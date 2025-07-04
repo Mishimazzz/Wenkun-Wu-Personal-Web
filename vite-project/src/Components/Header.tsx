@@ -22,7 +22,7 @@ function Header() {
         <div className='Nav'>
           <nav>
             <Link to="/about">About</Link>
-            <a href='#'>Photos</a>
+            <Link to="/photos">Photos</Link>
           </nav>
         </div>
         {/* change background color */}

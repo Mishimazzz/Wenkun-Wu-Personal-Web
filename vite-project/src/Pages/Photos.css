@@ -1,0 +1,17 @@
+.wholePage {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+.photo-text {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex: 1;
+  font-size: 1.3rem;
+}
+
+footer {
+  margin-top: auto;
+}
