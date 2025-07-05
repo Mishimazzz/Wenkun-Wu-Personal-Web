@@ -18,8 +18,8 @@ function About()
             thanks to my loyal baby fat). <br />
           </p>
           <p style={{ textIndent: '2em' }}>
-            Armed with advanced Excel skills and just enough Power BI to impress my manager, <br />I tackle pricing sheets and shipment mysteries by day,
-            and string instruments by night. 
+            Armed with advanced Excel skills and just enough Power BI to impress <br />my manager,I tackle pricing sheets and shipment mysteries by day,
+            <br />and string instruments by night. 
           </p>
           <p style={{ textIndent: '2em' }}>
             On a totally unrelated note, I have an identical twin sister <br />
