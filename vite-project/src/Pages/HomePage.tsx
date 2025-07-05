@@ -67,7 +67,7 @@ function HomePage() {
           
           <div className='right-section'>
             <WorkCard
-              logo="/public/images.png"
+              logo="/images.png"
               companyName="Nanjing Nanshen Xidi Certified Public Accountant Co, Ltd"
               position="Assistant Auditor | Internship"
               date="Jan 2021 – Mar 2021 | 2 mos"

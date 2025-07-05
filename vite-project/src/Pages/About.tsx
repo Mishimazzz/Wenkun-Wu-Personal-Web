@@ -27,9 +27,9 @@ function About()
           </p>
         </div>
         <div className='rightSection' data-aos="fade-up" data-aos-delay="300">
-        <img src="./public/wenkunwu.jpg" alt="wenkun wu image" />
+        <img src="./wenkunwu.jpg" alt="wenkun wu image" />
         <div className='resume'>
-            <a href="./public/WenkunWu_Resume2025.pdf">
+            <a href="./WenkunWu_Resume2025.pdf">
             View Résumé
             <svg
               stroke="currentColor"
