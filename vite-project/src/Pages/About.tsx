@@ -54,8 +54,8 @@ function About()
           <div className='left-footer'>
             <p>
               Built with:
-              <img src="./public/React-icon.svg.png" alt="" />React,
-              <img src="./public/typescript_Image.png" alt="" />TypeScript
+              <img src="./React-icon.svg.png" alt="" />React,
+              <img src="./typescript_Image.png" alt="" />TypeScript
             </p>
           </div>
           <div className='right-footer'>
