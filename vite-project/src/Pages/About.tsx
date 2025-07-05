@@ -1,5 +1,5 @@
-import React, { useState } from 'react';
-import AOS from 'aos';
+// import React, { useState } from 'react';
+// import AOS from 'aos';
 import 'aos/dist/aos.css';
 import Header from '../Components/Header'
 import '../Pages/About.css'

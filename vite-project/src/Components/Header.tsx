@@ -1,13 +1,13 @@
-import React, { useState } from 'react';
+// import { useState } from 'react';
 import "./Header.css"
 import ThemeSwitcher from '../Components/ThemeSwitcher';
 import logo from '../assets/logo.png';
 import { Link } from 'react-router-dom';
 
 function Header() {
-  const [dark, setDark] = useState(false);
+  // const [dark, setDark] = useState(false);
 
-  const toggleTheme = () => setDark(!dark);
+  // const toggleTheme = () => setDark(!dark);
 
   return (
     <div className='Header'>

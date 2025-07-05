@@ -1,6 +1,6 @@
 // filepath: c:\Users\16039\Desktop\Wenkun Wu Personal website\vite-project\src\App.tsx
 
-import React, { useEffect } from 'react';
+import { useEffect } from 'react';
 import AOS from 'aos';
 import 'aos/dist/aos.css';
 import Header from '../Components/Header'
