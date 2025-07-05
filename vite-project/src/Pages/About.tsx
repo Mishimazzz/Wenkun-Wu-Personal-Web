@@ -11,7 +11,7 @@ function About()
       <Header />
       <div className='TopFrame'>
         <div className='leftSection' data-aos="fade-up" data-aos-delay="200">
-          <h1>I'm Wenkun Wu. I live in Montreal, where I move containers and drive smarter supply chain decisions.</h1>
+          <h1>I'm Wenkun Wu. I live in Montreal, where I move containers.</h1>
           <p style={{ textIndent: '2em' }}>
             I'm a data-driven supply chain specialist who happens to own a violin, <br />
             a bass guitar, and a gym membership (the last one is more symbolic than visible, <br />
