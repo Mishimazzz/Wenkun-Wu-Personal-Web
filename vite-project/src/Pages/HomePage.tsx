@@ -47,38 +47,38 @@ function HomePage() {
               companyName="Rhenus Logistics"
               position="Inside Sales Support | Internship"
               date="Jan 2025 – May 2025 | 5 mos"
-              introduction="My primary tasks at Aviyel included crafting technical guides and hosting coding sessions to bridge the gap with open-source content for some of the fastest-growing projects."
+              introduction="Supported local pricing operations and helped automate freight quoting, improving team efficiency and accuracy."
             />
             <WorkCard
               logo="https://media.licdn.com/dms/image/v2/C4D0BAQERNrQoa9pguw/company-logo_100_100/company-logo_100_100/0/1631352787502?e=1756339200&amp;v=beta&amp;t=tkVPAzR6mYbvJxqNAlJvBxZ0b9XCG1q98HBxusTTgvM"
               companyName="COSCO SHIPPING Lines (North America)"
               position="Sales Assistant | Internship"
               date="May 2024 – Aug 2024 | 4 mos"
-              introduction="My primary tasks at Aviyel included crafting technical guides and hosting coding sessions to bridge the gap with open-source content for some of the fastest-growing projects."
+              introduction="Handled cross-team coordination and client rate requests, contributing to client acquisition and service improvements."
             />
             <WorkCard
               logo="https://media.licdn.com/dms/image/v2/C4E0BAQHJVipjNd9UUQ/company-logo_100_100/company-logo_100_100/0/1657212585321?e=1756339200&amp;v=beta&amp;t=B7FZYiCoWGLcWcMiQNaQhUfuRQ-XPT8h96PeRlbvM2A"
               companyName="Bakertilly CGSM"
               position="Assistant Auditor | Internship"
               date="Jan 2023 – Mar 2023 | 3 mos"
-              introduction="My primary tasks at Aviyel included crafting technical guides and hosting coding sessions to bridge the gap with open-source content for some of the fastest-growing projects."
+              introduction="Assisted in financial audits, developing strong attention to detail and document verification skills."
             />
           </div>
           
           <div className='right-section'>
             <WorkCard
-              logo="/images.png"
+              logo="/image.jpg"
               companyName="Nanjing Nanshen Xidi Certified Public Accountant Co, Ltd"
               position="Assistant Auditor | Internship"
               date="Jan 2021 – Mar 2021 | 2 mos"
-              introduction="My primary tasks at Aviyel included crafting technical guides and hosting coding sessions to bridge the gap with open-source content for some of the fastest-growing projects."
+              introduction="Worked on an IT audit for a public hospital, gaining experience in system controls and data integrity assessments."
             />
             <WorkCard
               logo="https://media.licdn.com/dms/image/v2/C4E0BAQHFTX3sJscepw/company-logo_100_100/company-logo_100_100/0/1648551863411/_logo?e=1756339200&amp;v=beta&amp;t=LtesUz2pWzTzH44Bz3CHpkzvvsWhg9d26kPoHg1a9a0"
               companyName="Suyin Financial Leasing Co Ltd"
               position="Assistant Sales Manager | Internship"
               date="Jul 2020 – Aug 2020 | 2 mos"
-              introduction="My primary tasks at Aviyel included crafting technical guides and hosting coding sessions to bridge the gap with open-source content for some of the fastest-growing projects."
+              introduction="Supported fintech sales with client profiling and risk review, enhancing screening and approval efficiency."
             />
           </div>
         </div>
